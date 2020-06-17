@@ -46,3 +46,4 @@ shutdown
 interface g0/2
 shutdown
 do wr
+do logout
