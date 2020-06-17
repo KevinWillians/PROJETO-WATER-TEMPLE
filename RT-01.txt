@@ -2,6 +2,7 @@ enable
 configure terminal 
 hostname RT-01
 no ip domain-lookup
+ipv6 unicast-routing
 banner motd "ACESSO APENAS PARA O DEPTO. DE TI DA WATER TEMPLE LTDA."
 enable secret TempleWater-123#
 username linkdoti privilege 15 secret hey-listen-3*
